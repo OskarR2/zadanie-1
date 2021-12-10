@@ -1,0 +1,44 @@
+body
+{
+    background-color: #383636;
+    font-family: 'Lato', sans-serif;
+}
+#gora
+{
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+#gora h3
+{
+    text-align: center;
+    size: 20px;
+    letter-spacing: -2px;
+    width: 100px;  
+    height: 100px;
+    color: red;
+    animation-name: tytul;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes tytul 
+{
+    0%   {color:red; }
+    25%  {color:yellow; }
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red; }
+  }
+#prawy
+{
+
+}
+#lewy
+{
+
+}
+img
+{
+    width: 50%;
+    height: 60%;
+}
